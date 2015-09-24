@@ -6,6 +6,7 @@ def myapp_curl():
 def myapp_install():
 	run('mkdir myapp')
 	put('myapp/*', 'myapp')
+	run('chmod +x ./myapp/bin/www')
 	sudo('cd myapp && npm install')
 
 def nodejs_install():

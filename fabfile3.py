@@ -3,7 +3,7 @@ from fabric.contrib.files import upload_template
 
 env.user = 'ubuntu'
 env.hosts = [
-	'1.1.1.1'
+	'52.64.1.1'
 ]
 
 def nginx_curl():
